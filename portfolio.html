@@ -9,27 +9,27 @@
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
 <body>
 
-
 <!-- Navbar and header for all pages -->
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(4, 152, 250);">
-            <h1 class="navbar-brand" style="color:white; margin:0 0 0 4%; font-size:30px; ">Logan McNulty</h1>
+        <h1 class="navbar-brand" style="color:white; margin:0 0 0 4%; font-size:30px; ">Logan McNulty</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText" style="position:absolute; right:5%;">
             <ul class="navbar-nav mr-auto">
                 
-                <li class="nav-item active">
+                <li class="nav-item">
                 <a class="nav-link" href="index.html" style="color:whitesmoke;">About<span class="sr-only">(current)</span></a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                 <a class="nav-link" href="portfolio.html" style="color:whitesmoke;">Portfolio</a>
                 </li>
 
@@ -45,16 +45,30 @@
 
     <!-- Content of page -->
 
-    <div class="container" >
-
+    <div class="container" style="margin: 3% auto 20%;">
         <div class="row">
-            <div class="col-3">
-                <h1>Portfolio</h1>
-            </div>
-        </div>
+            <div class="col-2"></div> <!--made this to scootch over main content one row-->
+            <div class="col-8">
+                <div class="card" style="margin-top:3%;">
+                    <div class="card-header" style="color:rgb(4, 152, 250); font-size:30px;">Portfolio</div>
 
+                 <!-- portfolio body -->
+
+                    <article style="background:red;">
+                        stuff soon
+                    </article>
+            </div>
+            <div class="col-2"></div>
+        </div>
     </div>
-        
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4" style="position:fixed;left:0;right:0;bottom:0;">
+
+    <div class="footer-copyright text-center py-3">© 2018 Copyright: LGM</div>
+            
+</footer>
+                      
 </body>
 
 </html>
