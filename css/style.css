@@ -1,0 +1,7 @@
+body{
+  background: url('https://raw.githubusercontent.com/LoganMcnulty/Bootstrap-Portfolio/master/images/Blurred-Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
