@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>Logan's Bootstrap Portfolio</title>
 
-  <!-- Bring in the bootstrap and CSS stylesheets -->
+  <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -17,64 +17,59 @@
 <!-- Navbar and header for all pages -->
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(4, 152, 250);">
-    <h1 class="navbar-brand" style="color:white;font-size:30px; ">Logan McNulty</h1>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto">
-            
-            <li class="nav-item ml-auto">
-            <a class="nav-link" href="index.html" style="color:whitesmoke;">About<span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item active ml-auto">
-            <a class="nav-link" href="portfolio.html" style="color:whitesmoke;">Portfolio</a>
-            </li>
-
-            <li class="nav-item ml-auto">
-            <a class="nav-link" href="contact.html" style="color:whitesmoke;">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+        <h1 class="navbar-brand" style="color:white;font-size:30px; ">Logan McNulty</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html" style="color:whitesmoke;">About<span class="sr-only">(current)</span></a>
+                </li>
     
+                <li class="nav-item">
+                <a class="nav-link" href="portfolio.html" style="color:whitesmoke;">Portfolio</a>
+                </li>
+    
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color:whitesmoke;">Contact</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
     <!-- Content of page -->
 
-  <div class="container" style="margin: 0 auto 20%;">
+  <div class="container" style="margin: 0 auto 20%;" >
 
     <div class="row">
       <div class="col-10" style="margin:auto;">
         <div class="card" style="margin-top:3%;">
         <div class="card-header" style="color:rgb(4, 152, 250); font-size:30px;">Portfolio</div>
 
-        <!-- Hang Man -->
         <div> 
-          <div class = "project_container img-fluid" alt="Responsive image">
+          <div class = "project_container">
             <img class="project_image" src="images/hangman.jpg">
             <div class = "project_label">Hangman</div>
           </div>
 
-        <!-- RPG Game -->
-          <div class = "project_container img-fluid" alt="Responsive image">
+          <div class = "project_container">
             <img class="project_image" src="images/zergling.jpg">
             <div class = "project_label">RPG Game</div>
           </div>
 
-        <!-- Trivia Game -->
-          <div class = "project_container img-fluid" alt="Responsive image">
+          <div class = "project_container">
             <img class="project_image" src="images/family.jpg">
             <div class = "project_label">Trivia Game</div>
           </div>
               
-        <!-- Rutgers info widget -->
-        <div class = "project_container img-fluid" alt="Responsive image">
+          <div class = "project_container">
             <img class="project_image" src="images/information.jpg">
             <div class = "project_label">Rutgers Info Widget</div>
           </div>
 
-        <!-- RPS -->
-          <div class = "project_container img-fluid" alt="Responsive image">
+          <div class = "project_container">
             <img class="project_image" src="images/rock_paper_scissors.jpg">
             <div class = "project_label">Rock Paper Scissors</div>
           </div>
@@ -83,11 +78,12 @@
       </div>
     </div>
   </div>
-  </div>
 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4" style="position:fixed;left:0;right:0;bottom:0;">
-    <div class="footer-copyright text-center py-3">© 2019 Copyright: LGM</div>     
+
+    <div class="footer-copyright text-center py-3">© 2019 Copyright: LGM</div>
+            
 </footer>
         
 <!--Boot Strap JQuery-->
@@ -96,4 +92,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
                     
 </body>
+
 </html>
